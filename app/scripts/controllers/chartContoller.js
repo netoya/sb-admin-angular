@@ -58,12 +58,13 @@ angular.module('sbAdminApp')
     $scope.dynamic = {
     	labels : ["Download Sales", "In-Store Sales", "Mail-Order Sales", "Tele Sales", "Corporate Sales"],
     	data : [300, 500, 100, 40, 120],
-    	type : 'PolarArea',
+    	type : 'polarArea',
 
     	toggle : function () 
     	{
-    		this.type = this.type === 'PolarArea' ?
-    	    'Pie' : 'PolarArea';
+            console.log(this.type);
+    		this.type = this.type === 'polarArea' ?
+    	    'pie' : 'polarArea';
 		}
     };
 }]);
