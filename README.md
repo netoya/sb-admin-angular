@@ -29,6 +29,8 @@ $ cd `project-directory`
 - bower install is ran from the postinstall
 ```sh
 $ npm install 
+$ cp node_modules/chart.js bower_components/
+$ cp node_modules/angular-chart.js bower_components/
 ```
 - a shortcut for `grunt serve`
 ```sh
